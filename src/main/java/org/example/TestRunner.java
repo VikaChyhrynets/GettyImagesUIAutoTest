@@ -7,7 +7,7 @@ public class TestRunner
         GettyImagesSiteTests gettyImagesSite = new GettyImagesSiteTests();
         System.out.println(gettyImagesSite.authorizationTest());
         System.out.println(gettyImagesSite.addPhotosToCart());
-        System.out.println(gettyImagesSite.removePhotosSignOut());
+        System.out.println(gettyImagesSite.removePhotos());
         gettyImagesSite.closeChromeTab();
     }
 }

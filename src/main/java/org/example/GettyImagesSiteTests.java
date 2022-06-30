@@ -90,15 +90,15 @@ public class GettyImagesSiteTests {
 
     }
 
-    public String removePhotosSignOut() {
-        System.out.println("Remove photos from cart and signed out test has been started...");
+    public String removePhotos() {
+        System.out.println("Remove photos from the cart test has been started...");
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"cart-item-list\"]/div[2]/div/div/figure/ul/li[2]/a")));
         driver.findElement(By.xpath("//*[@id=\"cart-item-list\"]/div[2]/div/div/figure/ul/li[2]/a")).click();
         System.out.println("step 1 has passed");
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"cart-item-list\"]/div/div/div/figure/ul/li[2]/a")));
         driver.findElement(By.xpath("//*[@id=\"cart-item-list\"]/div/div/div/figure/ul/li[2]/a")).click();
         System.out.println("step 2 has passed");
-        return "Remove photos from cart and signed out test result: Success!";
+        return "Remove photos from the cart test result: Success!";
     }
 
     public void closeChromeTab() {
