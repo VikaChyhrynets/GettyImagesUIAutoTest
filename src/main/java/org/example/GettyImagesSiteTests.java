@@ -62,11 +62,11 @@ public class GettyImagesSiteTests {
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/section/div/div[2]/div[1]/a")));
         driver.findElement(By.xpath("/html/body/div[2]/section/div/div[2]/div[1]/a")).click();
         System.out.println("step 3 has passed");
-        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"comp\"]")));
-        driver.findElement(By.xpath("//*[@id=\"comp\"]")).click();
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"XS\"]")));
+        driver.findElement(By.xpath("//*[@id=\"XS\"]")).click();
         System.out.println("step 4 has passed");
-        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/section/div/div[2]/div[3]/div[1]/div/div/div[2]/div[3]/div/div[2]")));
-        driver.findElement(By.xpath("/html/body/div[2]/section/div/div[2]/div[3]/div[1]/div/div/div[2]/div[3]/div/div[2]")).click();
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"react_buy_card\"]/div/div/div[3]")));
+        driver.findElement(By.xpath("//*[@id=\"react_buy_card\"]/div/div/div[3]")).click();
         System.out.println("step 5 has passed");
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"site-top-header-wrapper\"]/header-side-panels/div[4]/div[1]/button")));
         driver.findElement(By.xpath("//*[@id=\"site-top-header-wrapper\"]/header-side-panels/div[4]/div[1]")).click();
@@ -77,14 +77,14 @@ public class GettyImagesSiteTests {
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/section/div/div[2]/div[3]")));
         driver.findElement(By.xpath("/html/body/div[2]/section/div/div[2]/div[3]")).click();
         System.out.println("step 8 has passed");
-        wait.until((ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"comp\"]"))));
-        driver.findElement(By.xpath("//*[@id=\"comp\"]")).click();
+        wait.until((ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"XS\"]"))));
+        driver.findElement(By.xpath("//*[@id=\"XS\"]")).click();
         System.out.println("step 9 has passed");
-        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/section/div/div[2]/div[3]/div[1]/div/div/div[2]/div[3]/div/div[2]")));
-        driver.findElement(By.xpath("/html/body/div[2]/section/div/div[2]/div[3]/div[1]/div/div/div[2]/div[3]/div/div[2]")).click();
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"react_buy_card\"]/div/div/div[3]")));
+        driver.findElement(By.xpath("//*[@id=\"react_buy_card\"]/div/div/div[3]")).click();
         System.out.println("step 10 has passed");
-        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/section/div/div[2]/div[3]/div[1]/div/div/div[2]/div[3]/div/div[2]/a[3]")));
-        driver.findElement(By.xpath("/html/body/div[2]/section/div/div[2]/div[3]/div[1]/div/div/div[2]/div[3]/div/div[2]/a[3]")).click();
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"site-top-header-wrapper\"]/header-side-panels/div[6]/div[2]")));
+        driver.findElement(By.xpath("//*[@id=\"site-top-header-wrapper\"]/header-side-panels/div[6]/div[2]")).click();
         System.out.println("step 11 has passed");
         return "Add photos to cart test result: Success!";
 
